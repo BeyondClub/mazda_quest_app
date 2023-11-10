@@ -1,0 +1,6 @@
+framework module Pods_TelematicsApp {
+  umbrella header "Pods-TelematicsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module GKImagePicker_robseward {
+  umbrella header "GKImagePicker@robseward-umbrella.h"
+
+  export *
+  module * { export * }
+}
