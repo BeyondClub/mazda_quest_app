@@ -896,6 +896,9 @@
                                                 <state key="normal" title="Drive Score">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="driveScoreButtonTouchUp:" destination="uRu-bJ-T9U" eventType="touchUpInside" id="P8j-jJ-6Ys"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9K-8Q-lzG">
                                                 <rect key="frame" x="125" y="0.0" width="125" height="33"/>
@@ -904,6 +907,9 @@
                                                 <state key="normal" title="Points">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pointsButtonTouchUp:" destination="uRu-bJ-T9U" eventType="touchUpInside" id="sx3-ea-GVa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wL5-RQ-iNk">
                                                 <rect key="frame" x="250" y="0.0" width="125" height="33"/>
@@ -912,6 +918,9 @@
                                                 <state key="normal" title="Leaderboard">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="leaderboardButtonTouchUp:" destination="uRu-bJ-T9U" eventType="touchUpInside" id="vZc-y9-dAj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

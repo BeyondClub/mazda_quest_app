@@ -7,6 +7,7 @@
 //
 
 #import "NewDashboardViewController.h"
+#import "FeedViewController.h"
 
 @interface NewDashboardViewController ()
 
@@ -22,5 +23,15 @@
     [tabBarItem0 setSelectedImage:[[UIImage imageNamed:@"dashboard_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [tabBarItem0 setTitle:localizeString(@"dashboard_title")];
 }
+
+- (IBAction)feedButtonTouchUp:(UIButton *)sender {
+    FeedViewController *feed = [[UIStoryboard storyboardWithName:@"Feed" bundle:nil] instantiateInitialViewController];
+    if (self.navigationController.presentingViewController) {
+        [self.navigationController pushViewController:feed animated:YES];
+    } else {
+        [self presentViewController:feed animated:YES completion:nil];
+    }
+}
+
 
 @end

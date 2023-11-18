@@ -30,6 +30,11 @@
 #define IS_IPHONE_11_PROMAX (IS_IPHONE && SCREEN_MAX_LENGTH == 896.0)
 #define IS_IPHONE_13_PRO (IS_IPHONE && SCREEN_MAX_LENGTH == 844.0)
 #define IS_IPHONE_13_PROMAX (IS_IPHONE && SCREEN_MAX_LENGTH == 926.0)
+#define IS_IPHONE_14 (IS_IPHONE && SCREEN_MAX_LENGTH == 852.0)
+#define IS_IPHONE_14_PLUS (IS_IPHONE && SCREEN_MAX_LENGTH == 926.0)
+#define IS_IPHONE_14_PRO (IS_IPHONE && SCREEN_MAX_LENGTH == 844.0)
+#define IS_IPHONE_14_PROMAX (IS_IPHONE && SCREEN_MAX_LENGTH == 946.0)
+
 
 #define IS_OS_12_OR_OLD ([[[UIDevice currentDevice] systemVersion] floatValue] < 13.0)
 #define IS_OS_13_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 13.0)

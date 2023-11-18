@@ -32,7 +32,7 @@
     UITabBar *tabBar = self.tabBar;
     
     CGSize imgSize = CGSizeMake(tabBar.frame.size.width/tabBar.items.count +1, tabBar.frame.size.height);
-    if (IS_IPHONE_11 || IS_IPHONE_13_PRO || IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX) {
+    if (IS_IPHONE_11 || IS_IPHONE_13_PRO || IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX || IS_IPHONE_14 || IS_IPHONE_14_PLUS || IS_IPHONE_14_PRO || IS_IPHONE_14_PROMAX) {
         imgSize = CGSizeMake(tabBar.frame.size.width/tabBar.items.count +1, tabBar.frame.size.height +33);
     }
     

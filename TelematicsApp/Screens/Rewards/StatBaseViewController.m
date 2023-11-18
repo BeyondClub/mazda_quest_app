@@ -97,5 +97,19 @@
     [self presentViewController:settingsVC animated:YES completion:nil];
 }
 
+- (IBAction)driveScoreButtonTouchUp:(UIButton *)sender {
+    [self.baseScrollView setContentOffset:CGPointMake(0, 0) animated:YES];
+}
+
+- (IBAction)pointsButtonTouchUp:(UIButton *)sender {
+    CGFloat width = self.baseScrollView.frame.size.width;
+    [self.baseScrollView setContentOffset:CGPointMake(width, 0) animated:YES];
+}
+
+- (IBAction)leaderboardButtonTouchUp:(UIButton *)sender {
+    CGFloat width = self.baseScrollView.frame.size.width;
+    [self.baseScrollView setContentOffset:CGPointMake(width * 2, 0) animated:YES];
+}
+
 
 @end
