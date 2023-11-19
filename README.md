@@ -1,4 +1,4 @@
-# Mazda Quest
+# MAZDA QUEST
 
 <img width="1500" alt="Banner (5)" src="https://user-images.githubusercontent.com/90386676/200166480-a3bcb837-3d55-4e1d-ad80-f994cfbea26f.png">
 
@@ -9,21 +9,56 @@
 
 💡 Contract: {Link here}
 
-## Motivations
-CoverFi aims to help onboard millions of people to the DeFi ecosystem by making them feel more secure through a no-cost, continuous and easy-to-use insurance protocol for DeFi hacks.
+## Problem
+In a digital age where many industries have embraced digital and interactive layers, the automobile industry has lagged behind. While Web2 introduced social and personalization aspects to various sectors, the integration of Web3's financialization with gamification and community involvement is still a missing piece in the automotive world.
 
-So far this year $3 billion have been stolen due to hacks in DeFi protocols, the vast majority of losses were not covered by any type of insurance. The users affected by those hacks currently have no real option other than just accepting the losses.
+## MAZDA QUEST
+Adding a Fun Layer to the Driving Experience
+MAZDA QUEST aims to revolutionize the driving experience by leveraging Web3 technologies. It introduces the Mazda Token (MT), designed to reward drivers, passengers, and community members for engaging with their vehicles and the broader Mazda community.
 
-There are several existing insurance protocols but those are very technical and hard to use for mainstream users.
+## How It Works
+**1. Dynamic NFT as Membership Cards**
+Members will receive NFTs that evolve based on their driving habits and engagement levels, adding a personalized touch to the ownership experience.
 
-## Solution
-CoverFi is a no-cost, continuous and easy-to-use insurance protocol. (iOS App)
+**2. Earn MT Tokens**
+2-1. Drive to Earn
+・　Detours & Exploration
+・　Distance
+・　Eco-Friendly Driving
+・　Safe Driving
 
-Users deposit USDC into our protocol, and we use DeFi apps like Alluo to generate yield over the total premium deposited and we will use that yield to pay back the claims. The users will always have the option to withdraw the original amount paid as a premium with no loss. The insurance is kept active as long as the user does not make any withdrawals. Whenever they decide to withdraw, it is automatically canceled.
+2-2. Engage to Earn
+・　Social engagements
+・　Aftermarket purchases
+・　Store visits
+・　Community participation
+・　Plus, quests created by partners or community members
 
-Once a hack occurs in any of the supported DeFi protocols, users can submit an insurance claim and receive the coverage as soon as the claim is confirmed by UMA Optimistic Oracle.
+**3. Use MT Tokens for Fun / Rewards**
+・　In-car entertainment
+・　Discounts on products and services
+・　Exclusive Mazda digital collectibles
+・　Rewards created by partners or community members
 
-We do our best to abstract the technical terms related to insurance like premium or coverage, and make our UX super easy and intuitive so that users just need to worry about how much they want to be covered and make a deposit by clicking a button!
+**4. Open Ecosystem (Future Plan)**
+The platform will evolve to allow anyone to create quests or rewards, further engaging the Mazda community.
+Community members can craft their own quests or rewards on the Mazda Quest platform, fostering a dynamic, user-driven ecosystem.
+
+・　Creating quests requires depositing MT Tokens
+・　Creating rewards results in earning MT Tokens
+
+## User Benefits
+Earn tokens by driving
+Enhanced driving and travel experience
+Fosters community and belonging
+Adds interactive entertainment for passengers
+
+## Business Benefits
+Increased Sales through the MT rewards system
+New partnership opportunities
+Enhanced brand loyalty
+Community growth and word-of-mouth referrals
+Valuable data collection on customer preferences and trends
 
 ## Deck
 ![1 (3)](https://user-images.githubusercontent.com/90386676/200166408-e14eb5ad-d472-43b2-8a52-7a6d10ccd4ae.png)
