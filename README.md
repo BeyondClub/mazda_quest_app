@@ -17,10 +17,10 @@ Adding a Fun Layer to the Driving Experience
 MAZDA QUEST aims to revolutionize the driving experience by leveraging Web3 technologies. It introduces the Mazda Token (MT), designed to reward drivers, passengers, and community members for engaging with their vehicles and the broader Mazda community.
 
 ## How It Works
-**1. Dynamic NFT as Membership Cards**
-Members will receive NFTs that evolve based on their driving habits and engagement levels, adding a personalized touch to the ownership experience.
+**1. Dynamic NFT as Membership Cards**</br>
+</br>Members will receive NFTs that evolve based on their driving habits and engagement levels, adding a personalized touch to the ownership experience.
 
-**2. Earn MT Tokens**
+**2. Earn MT Tokens**</br>
 2-1. Drive to Earn
 ・　Detours & Exploration
 ・　Distance
