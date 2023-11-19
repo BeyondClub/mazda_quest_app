@@ -11,6 +11,7 @@
 
 ## Problem
 In a digital age where many industries have embraced digital and interactive layers, the automobile industry has lagged behind. While Web2 introduced social and personalization aspects to various sectors, the integration of Web3's financialization with gamification and community involvement is still a missing piece in the automotive world.
+![Screenshot 2023-11-18 at 22 57 1](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/0d5d6a50-ebf0-4b34-b157-daa0541c2604)
 
 ## MAZDA QUEST
 Adding a Fun Layer to the Driving Experience
