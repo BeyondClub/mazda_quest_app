@@ -1,7 +1,6 @@
 # MAZDA QUEST
 
-<img width="1500" alt="Banner (5)" src="https://user-images.githubusercontent.com/90386676/200166480-a3bcb837-3d55-4e1d-ad80-f994cfbea26f.png">
-
+![m1](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/37e85960-bda7-4726-96be-c45a0888b2ff)
 
 🌐 iOS App: {link here}
 
@@ -62,8 +61,11 @@ Community members can craft their own quests or rewards on the Mazda Quest platf
 ・　Valuable data collection on customer preferences and trends</br>
 
 ## Deck
-![1 (3)](https://user-images.githubusercontent.com/90386676/200166408-e14eb5ad-d472-43b2-8a52-7a6d10ccd4ae.png)
-![2 (8)](https://user-images.githubusercontent.com/90386676/200166424-455c6fb2-65fd-4a36-a275-76335b19ea28.png)
-![3 (5)](https://user-images.githubusercontent.com/90386676/200166438-5765b011-0229-475c-a692-451a474bb8a7.png)
-![5 (7)](https://user-images.githubusercontent.com/90386676/200166454-e7f6619a-655a-4e92-863d-0f05bb821ea8.png)
-![6 (6)](https://user-images.githubusercontent.com/90386676/200166464-c752d64a-53fc-4a1d-8843-6c98ef5d7ede.png)
+![m1](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/29441b22-0db2-4c22-abef-a248a5a758c0)
+![m2](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/86eda562-0d0a-4f29-bd07-cca25d899abe)
+![m3](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/202b3b7a-9f4e-4867-afe7-17b866d23b00)
+![m4](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/c222d60e-b66a-4475-92fd-a7ef33c37eea)
+![m5](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/6b1c490e-3978-44ea-a629-8d59740c72ce)
+![m6](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/d0c717c6-cb98-4a89-b55d-c829936c0bb0)
+![m7](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/8e0762f8-138f-49bd-bcfc-219284947e0f)
+![m8](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/7db2ab20-21da-41ae-89ff-083f6c24929d)
