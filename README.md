@@ -3,13 +3,11 @@
 <img width="1500" alt="Banner (5)" src="https://user-images.githubusercontent.com/90386676/200166480-a3bcb837-3d55-4e1d-ad80-f994cfbea26f.png">
 
 
-🌐 iOS App: https://coverfi.xyz
+🌐 iOS App: {link here}
 
-🖥️ iOS Repo: https://github.com/CoverFi/coverfi-app
+🖥️ iOS Repo: https://github.com/BeyondClub/mazda_quest_app
 
 💡 Contract: {Link here}
-
-🖌️ UI/UX Design: https://www.figma.com/file/IUFQT97MRyI53fhfLpJ8Uw/ETH-SF?node-id=0%3A1
 
 ## Motivations
 CoverFi aims to help onboard millions of people to the DeFi ecosystem by making them feel more secure through a no-cost, continuous and easy-to-use insurance protocol for DeFi hacks.
