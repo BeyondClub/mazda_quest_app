@@ -18,47 +18,47 @@ MAZDA QUEST aims to revolutionize the driving experience by leveraging Web3 tech
 
 ## How It Works
 **1. Dynamic NFT as Membership Cards**</br>
-</br>Members will receive NFTs that evolve based on their driving habits and engagement levels, adding a personalized touch to the ownership experience.
+Members will receive NFTs that evolve based on their driving habits and engagement levels, adding a personalized touch to the ownership experience.
 
 **2. Earn MT Tokens**</br>
-2-1. Drive to Earn
-・　Detours & Exploration
-・　Distance
-・　Eco-Friendly Driving
-・　Safe Driving
+2-1. Drive to Earn</br>
+・　Detours & Exploration</br>
+・　Distance</br>
+・　Eco-Friendly Driving</br>
+・　Safe Driving</br>
 
-2-2. Engage to Earn
-・　Social engagements
-・　Aftermarket purchases
-・　Store visits
-・　Community participation
-・　Plus, quests created by partners or community members
+2-2. Engage to Earn</br>
+・　Social engagements</br>
+・　Aftermarket purchases</br>
+・　Store visits</br>
+・　Community participation</br>
+・　Plus, quests created by partners or community members</br>
 
-**3. Use MT Tokens for Fun / Rewards**
-・　In-car entertainment
-・　Discounts on products and services
-・　Exclusive Mazda digital collectibles
-・　Rewards created by partners or community members
+**3. Use MT Tokens for Fun / Rewards**</br>
+・　In-car entertainment</br>
+・　Discounts on products and services</br>
+・　Exclusive Mazda digital collectibles</br>
+・　Rewards created by partners or community members</br>
 
-**4. Open Ecosystem (Future Plan)**
-The platform will evolve to allow anyone to create quests or rewards, further engaging the Mazda community.
+**4. Open Ecosystem (Future Plan)**</br>
+The platform will evolve to allow anyone to create quests or rewards, further engaging the Mazda community.</br>
 Community members can craft their own quests or rewards on the Mazda Quest platform, fostering a dynamic, user-driven ecosystem.
-
-・　Creating quests requires depositing MT Tokens
+</br></br>
+・　Creating quests requires depositing MT Tokens</br>
 ・　Creating rewards results in earning MT Tokens
 
 ## User Benefits
-Earn tokens by driving
-Enhanced driving and travel experience
-Fosters community and belonging
-Adds interactive entertainment for passengers
+・　Earn tokens by driving</br>
+・　Enhanced driving and travel experience</br>
+・　Fosters community and belonging</br>
+・　Adds interactive entertainment for passengers</br>
 
 ## Business Benefits
-Increased Sales through the MT rewards system
-New partnership opportunities
-Enhanced brand loyalty
-Community growth and word-of-mouth referrals
-Valuable data collection on customer preferences and trends
+・　Increased Sales through the MT rewards system</br>
+・　New partnership opportunities</br>
+・　Enhanced brand loyalty</br>
+・　Community growth and word-of-mouth referrals</br>
+・　Valuable data collection on customer preferences and trends</br>
 
 ## Deck
 ![1 (3)](https://user-images.githubusercontent.com/90386676/200166408-e14eb5ad-d472-43b2-8a52-7a6d10ccd4ae.png)
