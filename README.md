@@ -6,7 +6,9 @@
 
 🖥️ iOS Repo: https://github.com/BeyondClub/mazda_quest_app
 
-💡 Contract: {Link here}
+💡 Contract: 
+Mazda NFT: https://zkatana.blockscout.com/token/0xCc2CcF39d4814Fe68af3d6F4282A7c4d723F2377
+Mazda Token: https://zkatana.blockscout.com/token/0x2DC32f63979741C77A80732bBfd336F34b688C9F
 
 ## Problem
 In a digital age where many industries have embraced digital and interactive layers, the automobile industry has lagged behind. While Web2 introduced social and personalization aspects to various sectors, the integration of Web3's financialization with gamification and community involvement is still a missing piece in the automotive world.
