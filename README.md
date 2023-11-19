@@ -6,8 +6,8 @@
 
 🖥️ iOS Repo: https://github.com/BeyondClub/mazda_quest_app
 
-💡 Contract: 
-Mazda NFT: https://zkatana.blockscout.com/token/0xCc2CcF39d4814Fe68af3d6F4282A7c4d723F2377
+💡 Contract: </br>
+Mazda NFT: https://zkatana.blockscout.com/token/0xCc2CcF39d4814Fe68af3d6F4282A7c4d723F2377</br>
 Mazda Token: https://zkatana.blockscout.com/token/0x2DC32f63979741C77A80732bBfd336F34b688C9F
 
 ## Problem
