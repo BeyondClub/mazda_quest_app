@@ -1,6 +1,6 @@
 # MAZDA QUEST
 
-![m1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m1.png)
+![m1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m1.png)
 
 🌐 iOS App: {link here}
 
@@ -13,7 +13,7 @@ Mazda Token: https://zkatana.blockscout.com/token/0x2DC32f63979741C77A80732bBfd3
 ## Problem
 
 In a digital age where many industries have embraced digital and interactive layers, the automobile industry has lagged behind. While Web2 introduced social and personalization aspects to various sectors, the integration of Web3's financialization with gamification and community involvement is still a missing piece in the automotive world.
-![Screenshot 2023-11-18 at 22 57 1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m2.png)
+![Screenshot 2023-11-18 at 22 57 1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m2.png)
 
 ## MAZDA QUEST - Adding a Fun Layer to the Driving Experience
 
@@ -72,11 +72,11 @@ Community members can craft their own quests or rewards on the Mazda Quest platf
 
 ## Deck
 
-![m1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m3.png)
-![m2](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m4.png)
-![m3](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m5.png)
-![m4](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m6.png)
-![m5](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m7.png)
-![m6](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m8.png)
-![m7](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m9.png)
-![m8](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/m10.png)
+![m1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m3.png)
+![m2](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m4.png)
+![m3](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m5.png)
+![m4](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m6.png)
+![m5](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m7.png)
+![m6](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m8.png)
+![m7](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m9.png)
+![m8](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m10.png)
