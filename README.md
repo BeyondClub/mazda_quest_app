@@ -14,8 +14,7 @@ Mazda Token: https://zkatana.blockscout.com/token/0x2DC32f63979741C77A80732bBfd3
 In a digital age where many industries have embraced digital and interactive layers, the automobile industry has lagged behind. While Web2 introduced social and personalization aspects to various sectors, the integration of Web3's financialization with gamification and community involvement is still a missing piece in the automotive world.
 ![Screenshot 2023-11-18 at 22 57 1](https://github.com/BeyondClub/mazda_quest_app/assets/90386676/0d5d6a50-ebf0-4b34-b157-daa0541c2604)
 
-## MAZDA QUEST
-Adding a Fun Layer to the Driving Experience
+## MAZDA QUEST - Adding a Fun Layer to the Driving Experience
 MAZDA QUEST aims to revolutionize the driving experience by leveraging Web3 technologies. It introduces the Mazda Token (MT), designed to reward drivers, passengers, and community members for engaging with their vehicles and the broader Mazda community.
 
 ## How It Works
