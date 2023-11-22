@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yyN-Ks-TJ2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yyN-Ks-TJ2">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -487,11 +487,11 @@ Drive 10 km</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbD-fe-CcA" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="4" width="414" height="892"/>
+                                <rect key="frame" x="0.0" y="-44" width="414" height="974"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ce7-jB-Uja">
-                                <rect key="frame" x="-10" y="349" width="54" height="54"/>
+                                <rect key="frame" x="-10" y="342" width="54" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="54" id="2Sr-1x-Tw1"/>
                                     <constraint firstAttribute="height" constant="54" id="yBV-xs-qIJ"/>
@@ -502,7 +502,7 @@ Drive 10 km</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTz-ed-HWO">
-                                <rect key="frame" x="370" y="349" width="54" height="54"/>
+                                <rect key="frame" x="370" y="342" width="54" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="54" id="2KV-sE-WFj"/>
                                     <constraint firstAttribute="height" constant="54" id="KtR-cP-ubW"/>
@@ -513,10 +513,10 @@ Drive 10 km</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUu-4a-zNn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0r-cu-dRo">
-                                        <rect key="frame" x="0.0" y="70" width="414" height="20"/>
+                                        <rect key="frame" x="0.0" y="22" width="414" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="k9Q-8o-cuQ"/>
                                         </constraints>
@@ -525,7 +525,7 @@ Drive 10 km</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvR-KF-vBd">
-                                        <rect key="frame" x="21" y="70" width="33" height="22.5"/>
+                                        <rect key="frame" x="21" y="22" width="33" height="22.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="33" id="bIW-GE-cqL"/>
                                         </constraints>
@@ -535,14 +535,35 @@ Drive 10 km</string>
                                             <action selector="backBtnClick:" destination="pPA-Cw-7X5" eventType="touchUpInside" id="uCf-WH-b7N"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYE-aU-0ri">
+                                        <rect key="frame" x="304" y="19.5" width="100" height="28"/>
+                                        <color key="backgroundColor" red="0.0" green="0.42352941179999998" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="5Yf-rx-c7v"/>
+                                            <constraint firstAttribute="height" constant="28" id="vJf-D7-nvj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Collect Points"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="collectPointsButtonTouchUp:" destination="pPA-Cw-7X5" eventType="touchUpInside" id="ooa-vE-G5J"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.54709507040000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="X0r-cu-dRo" firstAttribute="leading" secondItem="CUu-4a-zNn" secondAttribute="leading" id="CsU-ns-iGp"/>
+                                    <constraint firstAttribute="trailing" secondItem="IYE-aU-0ri" secondAttribute="trailing" constant="10" id="MpL-O5-WZ7"/>
                                     <constraint firstItem="FvR-KF-vBd" firstAttribute="leading" secondItem="CUu-4a-zNn" secondAttribute="leading" constant="21" id="OhW-Pu-c5g"/>
                                     <constraint firstItem="X0r-cu-dRo" firstAttribute="centerY" secondItem="FvR-KF-vBd" secondAttribute="centerY" constant="-1.25" id="aSR-jT-wAd"/>
                                     <constraint firstAttribute="trailing" secondItem="X0r-cu-dRo" secondAttribute="trailing" id="afC-2J-37N"/>
                                     <constraint firstAttribute="bottom" secondItem="FvR-KF-vBd" secondAttribute="bottom" constant="15.5" id="cDB-PO-rh2"/>
+                                    <constraint firstItem="IYE-aU-0ri" firstAttribute="centerY" secondItem="FvR-KF-vBd" secondAttribute="centerY" id="vhi-2S-uvn"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -596,7 +617,7 @@ Drive 10 km</string>
         <image name="profile_back_clear" width="494" height="279"/>
         <image name="settings" width="37" height="37"/>
         <systemColor name="groupTableViewBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

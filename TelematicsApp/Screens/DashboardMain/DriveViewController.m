@@ -32,11 +32,11 @@
     [tabBarItem0 setTitle:localizeString(@"dashboard_title")];
     
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.headerView.bounds byRoundingCorners:(UIRectCornerBottomLeft | UIRectCornerBottomRight) cornerRadii:CGSizeMake(30.0, 30.0)];
-
+    
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.headerView.bounds;
     maskLayer.path  = maskPath.CGPath;
-
+    
     self.headerView.layer.mask = maskLayer;
     
     self.dotLabel.layer.cornerRadius = 6;
@@ -44,7 +44,6 @@
     
     self.secondsPassed = 0;
     
-    //[RPEntry instance].accuracyAuthorizationDelegate = self;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -58,6 +57,7 @@
     } else {
         self.secondsPassed = 0;
         self.durationLabel.text = @"00:00:00";
+        [self startTrip];
     }
 }
 
@@ -97,9 +97,7 @@
     self.durationLabel.text = [NSString stringWithFormat:@"%02ld:%02ld:%02ld", (long)hours, (long)minutes, (long)seconds];
 }
 
-//MARK: - Button Actions
-
-- (IBAction)startTripButtonTouchUp:(UIButton *)sender {
+- (void)startTrip {
     NSDate *savedStartTime = [[NSUserDefaults standardUserDefaults] objectForKey:@"startTime"];
     NSDate *savedPauseTime = [[NSUserDefaults standardUserDefaults] objectForKey:@"pauseTime"];
     
@@ -113,14 +111,20 @@
     }
     
     [self startTimer];
-   
-//    [self.startButton setHidden:TRUE];
-//    [self.stopButton setHidden:TRUE];
-//    [self.pauseButton setHidden:FALSE];
+    
+    //    [self.startButton setHidden:TRUE];
+    //    [self.stopButton setHidden:TRUE];
+    //    [self.pauseButton setHidden:FALSE];
     
     [[RPEntry instance] setEnableSdk:true];
     [RPEntry instance].disableTracking = NO;  //enable tracking
     [[RPTracker instance] startTracking];
+}
+
+//MARK: - Button Actions
+
+- (IBAction)startTripButtonTouchUp:(UIButton *)sender {
+    [self startTrip];
 }
 
 - (IBAction)pauseTripButtonTouchUp:(UIButton *)sender {

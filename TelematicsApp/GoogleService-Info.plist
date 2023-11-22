@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyC8se5klY55-Ua9V3lOipP3ElU4E6Uvouo</string>
+	<string>AIzaSyAPCp8G2u4KYEoit6HKU-Wr6p92e9otun8</string>
 	<key>GCM_SENDER_ID</key>
 	<string>504043626816</string>
 	<key>PLIST_VERSION</key>
@@ -15,15 +15,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>yuki-53ef9.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:504043626816:ios:16969297522b68974b5aa5</string>
 </dict>

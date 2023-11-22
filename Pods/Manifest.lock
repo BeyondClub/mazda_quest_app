@@ -95,13 +95,12 @@ PODS:
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleMaps (3.9.0):
-    - GoogleMaps/Maps (= 3.9.0)
-  - GoogleMaps/Base (3.9.0)
-  - GoogleMaps/Maps (3.9.0):
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
     - GoogleMaps/Base
-  - GooglePlaces (3.9.0):
-    - GoogleMaps/Base (= 3.9.0)
+  - GooglePlaces (6.2.1)
   - GoogleUtilities/AppDelegateSwizzler (7.11.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -173,8 +172,8 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Storage
   - "GKImagePicker@robseward"
-  - GoogleMaps (= 3.9.0)
-  - GooglePlaces (= 3.9.0)
+  - GoogleMaps
+  - GooglePlaces
   - ImagePicker (from `https://github.com/hyperoslo/ImagePicker.git`)
   - IQDropDownTextField
   - IQMediaPickerController
@@ -268,8 +267,8 @@ SPEC CHECKSUMS:
   "GKImagePicker@robseward": 98b9ead2141843574736cef51a2b4813ecefa62c
   GoogleAppMeasurement: 2c0c6e2a7ab3fe730ade6379f732bdefb46f50b0
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
-  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
-  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GooglePlaces: 94974aa119573d5acc2a35a699948dac838abd73
   GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
@@ -297,6 +296,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 7fb0fc6bc681a82d0f00722afcbbdd00a0e1811b
+PODFILE CHECKSUM: 29e6a9ebdfc7251b19d7a39339d482c64ca81c49
 
 COCOAPODS: 1.12.1

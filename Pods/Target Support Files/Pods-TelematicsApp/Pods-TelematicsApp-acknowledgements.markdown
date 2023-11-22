@@ -1990,11 +1990,11 @@ Copyright 2021 Google
 
 ## GoogleMaps
 
-Copyright 2020 Google
+Copyright 2022 Google
 
 ## GooglePlaces
 
-Copyright 2020 Google
+Copyright 2022 Google
 
 ## GoogleUtilities
 

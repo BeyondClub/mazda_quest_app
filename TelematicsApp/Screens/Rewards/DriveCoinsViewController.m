@@ -157,7 +157,7 @@
     self.avatarImg.userInteractionEnabled = YES;
     [self.avatarImg addGestureRecognizer:avaTap];
     
-    if (IS_IPHONE_13_PROMAX) {
+    if (IS_IPHONE_13_PROMAX || IS_IPHONE_14_PROMAX) {
         NSLayoutConstraint *heightConstraint;
         for (NSLayoutConstraint *constraint in self.whiteBackView.constraints) {
             if (constraint.firstAttribute == NSLayoutAttributeHeight) {

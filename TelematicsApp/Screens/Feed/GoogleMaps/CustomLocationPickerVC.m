@@ -542,6 +542,63 @@
     [claimPopup hideClaimAlertPopup];
 }
 
+- (IBAction)collectPointsButtonTouchUp:(UIButton *)sender {
+    [self collectPoints];
+}
+
+#pragma mark - Collect Points API Call
+
+- (void)collectPoints {
+        
+    [self showPreloader];
+    
+    //https://mazda.staging.beyondclub.xyz/api/integration/mazda_get_points?device_token=ba3554f2-5341-413d-8db2-84a134398a5a
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://mazda.staging.beyondclub.xyz/api/integration/mazda_collect_points?device_token=%@",[GeneralService sharedService].device_token_number]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        if (error) {
+            NSLog(@"Error: %@", error);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self hidePreloader];
+            });
+        } else {
+            NSError *jsonError;
+            NSDictionary *jsonResponse = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonError];
+            if (jsonError) {
+                NSLog(@"JSON Error: %@", jsonError);
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self hidePreloader];
+                });
+            } else {
+                BOOL status = [jsonResponse[@"status"] boolValue];
+                NSString *message = jsonResponse[@"message"];
+                NSString *token = jsonResponse[@"token"];
+
+                if (status) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [self hidePreloader];
+                        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Mazda Quest" message:[NSString stringWithFormat:@"%@ %@ tokens", message, token] preferredStyle:UIAlertControllerStyleAlert];
+                        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+                        [alert addAction:okAction];
+                        [self presentViewController:alert animated:YES completion:nil];
+                    });
+                } else {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [self hidePreloader];
+                        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Mazda Quest" message:@"Something went wrong or user not connected" preferredStyle:UIAlertControllerStyleAlert];
+                        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+                        [alert addAction:okAction];
+                        [self presentViewController:alert animated:YES completion:nil];
+                    });
+                }
+            }
+        }
+    }];
+    
+    [task resume];
+}
 
 #pragma mark - Driver Signature Role on Trip Details
 

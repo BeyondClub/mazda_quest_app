@@ -2462,9 +2462,9 @@
                 heightConstraint.constant = 1450;
             } else if (IS_IPHONE_8P) {
                 heightConstraint.constant = 1420;
-            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO) {
+            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO || IS_IPHONE_14_PRO || IS_IPHONE_14) {
                 heightConstraint.constant = 1370;
-            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX) {
+            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX || IS_IPHONE_14_PROMAX || IS_IPHONE_14_PLUS) {
                 heightConstraint.constant = 1280;
             }
         } else if (userRealDistance < requiredDistance) {
@@ -2472,9 +2472,9 @@
                 heightConstraint.constant = 1640;
             } else if (IS_IPHONE_8 || IS_IPHONE_8P) {
                 heightConstraint.constant = 1560;
-            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO) {
+            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO || IS_IPHONE_14_PRO || IS_IPHONE_14) {
                 heightConstraint.constant = 1470;
-            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX) {
+            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX || IS_IPHONE_14_PROMAX || IS_IPHONE_14_PLUS) {
                 heightConstraint.constant = 1400;
             }
         }
@@ -2507,9 +2507,9 @@
                 heightConstraint.constant = 780;
             } else if (IS_IPHONE_8P) {
                 heightConstraint.constant = 710;
-            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO) {
+            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO || IS_IPHONE_14_PRO || IS_IPHONE_14) {
                 heightConstraint.constant = 680;
-            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX) {
+            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX || IS_IPHONE_14_PROMAX || IS_IPHONE_14_PLUS) {
                 heightConstraint.constant = 580;
             }
         } else if (userRealDistance < requiredDistance) {
@@ -2517,9 +2517,9 @@
                 heightConstraint.constant = 940;
             } else if (IS_IPHONE_8 || IS_IPHONE_8P) {
                 heightConstraint.constant = 860;
-            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO) {
+            } else if (IS_IPHONE_11 || IS_IPHONE_13_PRO || IS_IPHONE_14_PRO || IS_IPHONE_14) {
                 heightConstraint.constant = 770;
-            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX) {
+            } else if (IS_IPHONE_11_PROMAX || IS_IPHONE_13_PROMAX || IS_IPHONE_14_PROMAX || IS_IPHONE_14_PLUS) {
                 heightConstraint.constant = 700;
             }
         }
