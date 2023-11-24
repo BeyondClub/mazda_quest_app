@@ -2,7 +2,7 @@
 
 ![m1](https://raw.githubusercontent.com/BeyondClub/mazda_quest_app/main/images/m1.png)
 
-🌐 iOS App: {link here}
+🌐 iOS App: https://testflight.apple.com/join/2gU6sbI6
 
 🖥️ iOS Repo: https://github.com/BeyondClub/mazda_quest_app
 
